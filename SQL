@@ -4,5 +4,5 @@ Required:
 Install: 
   $ wget percona.com/get/pt-show-grants
   $ chmod +x pt-show-grants
-Use:
-pt-show-grants -u <user> -p <password> -h <hostname> > user_grant.sql
+Usage:
+  $ pt-show-grants -u <user> -p <password> -h <hostname> > user_grant.sql
