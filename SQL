@@ -1,0 +1,8 @@
+# Install pt-show-grants
+Required: 
+  sudo yum install perl-DBD-MySQL
+Install: 
+  $ wget percona.com/get/pt-show-grants
+  $ chmod +x pt-show-grants
+Use:
+pt-show-grants -u <user> -p <password> -h <hostname> > user_grant.sql
