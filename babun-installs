@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# Paste in Babun
+echo "set mouse-=a" >> ~/.vimrc 
 #INSTALL PIP
 wget https://bootstrap.pypa.io/ez_setup.py -O - | python
 easy_install pip
@@ -7,6 +11,9 @@ pip install mercurial-keyring
 curl -s https://raw.githubusercontent.com/tiangolo/ansible-babun-bootstrap/master/install.sh | source /dev/stdin
 
 #Dependency of ansible  
-pip install pyyaml	#YAML
-easy_install Jinja2	#jinja2
+                        # ecdsa
+                        # pycrypto
+                        # paramiko
+pip install pyyaml	# YAML
+easy_install Jinja2	# jinja2
 #
