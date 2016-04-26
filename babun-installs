@@ -7,9 +7,6 @@ wget https://bootstrap.pypa.io/ez_setup.py -O - | python
 easy_install pip
 pip install mercurial-keyring
 
-#INSTALL ANSIBLE
-curl -s https://raw.githubusercontent.com/tiangolo/ansible-babun-bootstrap/master/install.sh | source /dev/stdin
-
 #Dependency of ansible  
                         # ecdsa
                         # pycrypto
@@ -17,3 +14,6 @@ curl -s https://raw.githubusercontent.com/tiangolo/ansible-babun-bootstrap/maste
 pip install pyyaml	# YAML
 easy_install Jinja2	# jinja2
 #
+
+#INSTALL ANSIBLE
+curl -s https://raw.githubusercontent.com/tiangolo/ansible-babun-bootstrap/master/install.sh | source /dev/stdin
